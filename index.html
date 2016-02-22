@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+		<title>Comment Section</title>
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="icon" type="image/ico" href="favicon.png"/>
+	
+</head>
+<body>
+  <h1 class="animated wobble">Let's leave some comments!</h1>
+ 		
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+        	<form id="messageForm">
+        	 		What's your name? <input type="text" id="name">
+        </div>
+        
+      </div>
+
+    	<div class="row">
+        <div class="col-md-12">		
+          <textarea placeholder= "Your message" id="message" type="text"> </textarea>
+        </div> 
+     
+      </div> 
+    	 	<button type="button" onclick="enterMessage()" class="btn btn-primary btn-lg">Comment!</button>
+    	</form>
+
+    	<div>
+    		<div id= "division"></div>
+    	</div>
+    </div>
+
+  <script src="js/bootstrap.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>

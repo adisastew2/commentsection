@@ -1,0 +1,20 @@
+body {
+    background-image: url("../img/conversation.png");
+    background-repeat:no-repeat;
+	background-size:contain;
+	background-position:center;
+    
+}
+
+textarea {
+	height: 100px;
+	width: 450px;
+}
+
+div {
+	margin: 10px;
+}
+
+h1, .container {
+	text-align: center;
+}
